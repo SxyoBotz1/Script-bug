@@ -984,7 +984,7 @@ listType: 1}
 
 switch (command) {
 case 'jadibot': {
-if (m.isGroup) return reply(mess.private)
+if (!itsMejarot) return reply(mess.premium)
 jadibot(jarot, m, from)
 }
 break
